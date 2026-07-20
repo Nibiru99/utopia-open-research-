@@ -1,7 +1,7 @@
 # Recursive Probability Coupling: A Falsifiable Synthetic Benchmark Protocol for Coupled-State Dynamics
 
-**Pre-results manuscript draft v0.1**  
-**Author:** David Glowalla  
+**Pre-results manuscript draft v0.1**
+**Author:** David Glowalla
 **Status:** design draft; no confirmatory results are reported.
 
 ## Abstract
