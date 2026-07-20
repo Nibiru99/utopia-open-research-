@@ -17,6 +17,10 @@ The target is a reproducible synthetic dynamical-systems benchmark. It does not 
 - [manuscript-draft.md](manuscript-draft.md)
 - [zenodo-metadata-draft.json](zenodo-metadata-draft.json)
 - [results/README.md](results/README.md)
+- [CITATION.cff](CITATION.cff)
+- [CHANGELOG.md](CHANGELOG.md)
+- [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
+- [release/artifact-manifest.json](release/artifact-manifest.json)
 
 The primary coupling-versus-uncoupled contract passed. Dynamic coupling did not outperform matched fixed coupling, and the entropy–curvature diagnostic did not separate from its circular-shift surrogate. These failed diagnostics are part of the result.
 

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "package": "rpc-v2",
+  "version": "2.0.0-rc.1",
+  "publication_state": "draft_release_candidate",
+  "creator": {
+    "name": "David Glowalla",
+    "zenodo_name": "Glowalla, David",
+    "orcid": null,
+    "affiliation": null
+  },
+  "repository": "Nibiru99/utopia-open-research-",
+  "branch": "agent/open-research-foundation",
+  "design_freeze_commit": "36be4b796e9e417b5eeca61d5873f8f6447b1dab",
+  "result_commit": "ae691d297577933f4f28593f4a2e8f815a2736c8",
+  "zenodo_lineage": {
+    "concept_doi": "10.5281/zenodo.18367001",
+    "current_version_doi": "10.5281/zenodo.18367002",
+    "new_version_state": "not_created"
+  },
+  "reproduction": {
+    "runtime": "Node.js v24.14.0",
+    "dependencies": [],
+    "commands": [
+      "npm test",
+      "npm run rpc:run"
+    ],
+    "tests_passed": 4,
+    "clean_checkout_reproduced": true,
+    "primary_contract_passed": true,
+    "full_contract_passed": false
+  },
+  "artifacts": [
+    {
+      "path": "projects/rpc-v2/config/confirmatory-v2.0.0.json",
+      "sha256": "32d371cf354ebdb28003107da76bcfa4ec5bd7aac103bf545e22ab9c381cc22f",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "projects/rpc-v2/results/rpc-v2-confirmatory.json",
+      "sha256": "f8150fa78f3ef35be9bac1bbeef8c086aba367f4a69b84d5b88e676f3ecbc2db",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "projects/rpc-v2/results/rpc-v2-per-seed.csv",
+      "sha256": "9eb0d728732cb022c223cca3efd25ac4d94c44bb23ec1fa07031ffe034db54ba",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "failed_diagnostics": [
+    "H3_dynamic_vs_fixed_auc",
+    "H4_entropy_curvature_beyond_surrogate"
+  ],
+  "interpretation_boundary": "The result describes a synthetic coupled-state system and does not establish consciousness, human affect, quantum behavior, clinical performance, or physical entropy."
+}
