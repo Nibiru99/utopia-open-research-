@@ -1,0 +1,43 @@
+{
+  "status": "UNPUBLISHED_WORKING_COPY",
+  "title": "Recursive Probability Coupling: A Falsifiable Synthetic Benchmark Protocol for Coupled-State Dynamics",
+  "creators": [
+    {
+      "name": "Glowalla, David",
+      "orcid": null,
+      "affiliation": null
+    }
+  ],
+  "version": "2.0-draft",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "Corrective pre-results draft reformulating RPC as a controlled synthetic benchmark. Unsupported empirical numerical statements from the prior version are withdrawn pending reconstruction. No confirmatory result is reported and no claim is made about consciousness, human affect, quantum phenomena, or clinical performance.",
+  "keywords": [
+    "coupled dynamical systems",
+    "synthetic benchmark",
+    "surrogate controls",
+    "reproducibility"
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18367001",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18367002",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Nibiru99/utopia-open-research-",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": [
+    "Do not publish until executable results and final metadata are reviewed.",
+    "ORCID and affiliation intentionally unset pending confirmation."
+  ]
+}
