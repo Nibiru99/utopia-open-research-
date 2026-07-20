@@ -1,0 +1,13 @@
+{
+  "name": "utopia-open-research",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test projects/rpc-v2/test/*.test.mjs",
+    "rpc:run": "node projects/rpc-v2/src/run-benchmark.mjs"
+  }
+}
