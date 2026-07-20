@@ -1,8 +1,8 @@
 # Recursive Probability Coupling v2
 
-**State:** source audit and synthetic benchmark design draft  
-**Creator:** David Glowalla  
-**Existing Zenodo concept DOI:** [10.5281/zenodo.18367001](https://doi.org/10.5281/zenodo.18367001)  
+**State:** source audit and synthetic benchmark design draft
+**Creator:** David Glowalla
+**Existing Zenodo concept DOI:** [10.5281/zenodo.18367001](https://doi.org/10.5281/zenodo.18367001)
 **Existing version DOI:** [10.5281/zenodo.18367002](https://doi.org/10.5281/zenodo.18367002)
 
 RPC v2 is a corrective rehearsal of the GitHub-to-Zenodo workflow. It preserves the coupled-state idea while withdrawing empirical language not backed by recoverable observations, code, seeds, or analyses.
