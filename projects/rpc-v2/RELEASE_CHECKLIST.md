@@ -19,7 +19,8 @@
 
 - [ ] Decide whether to state “independent researcher” as the affiliation line
 - [ ] Add ORCID if David Glowalla wants it public
-- [ ] Complete a primary-source related-work review and bibliography
+- [x] Add an initial primary-source methodological bibliography
+- [ ] Expand and independently review the related-work section before publication
 - [ ] Perform a final manuscript line edit
 - [ ] Produce and visually verify the manuscript PDF
 - [ ] Confirm the exact Zenodo upload file list

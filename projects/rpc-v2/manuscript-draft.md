@@ -18,11 +18,17 @@ Two normalized 32-dimensional vectors evolve through symmetric coupling and stoc
 
 Controls include uncoupled, matched-fixed, shuffled-schedule, and repulsive arms. A second dynamic arm uses the prior `dt` stochastic scaling rather than diffusion-style square-root scaling. A deterministic circular shift tests whether entropy–curvature association exceeds a relationship induced by shared trajectories.
 
-## 3. Outcomes
+## 3. Methodological context
+
+The symmetric difference term is most conservatively interpreted as a two-node diffusive or consensus-like update. Consensus theory studies conditions under which networked agents approach agreement; it supplies context for convergence analysis but does not validate RPC's particular nonlinear schedule [1]. Coupling-induced synchronization is also established as a general dynamical phenomenon, including in nonlinear systems [2]. Those literatures make convergence under attractive coupling unsurprising and motivate the matched-fixed comparison.
+
+The state-entropy diagnostic uses Shannon's information measure [3]. It is not thermodynamic entropy. Surrogate-data methods test a statistic against data generated under an explicit null [4]. RPC's first benchmark uses a simpler frozen circular shift as one diagnostic control; it is not equivalent to the complete surrogate families described by Theiler and colleagues, and phase-randomized robustness remains future work.
+
+## 4. Outcomes
 
 Primary outcomes are paired median coherence-area advantage over uncoupled and recovery-rate advantage. Diagnostics compare dynamic with matched fixed coupling and entropy–curvature association with its surrogate. The seed range and stopping rule were fixed. Failed thresholds and negative results remain visible.
 
-## 4. Results
+## 5. Results
 
 All 200 declared seeds were executed. Initial cosine was centered near zero (mean `0.00149`, median `0.00755`), removing the positive-initialization bias identified in the prior design.
 
@@ -34,15 +40,15 @@ The entropy–curvature interpretation also failed. Median observed correlation 
 
 The primary contract passed; the full contract failed because both diagnostic hypotheses failed. Thresholds were not changed after observation.
 
-## 5. Scope
+## 6. Scope
 
 The study concerns a synthetic update system. It neither uses nor authorizes EEG, HRV, EDA, participant conversations, clinical intervention, or quantum hardware. Any human study requires a separate protocol and ethics/privacy review.
 
-## 6. Reproducibility
+## 7. Reproducibility
 
 The dependency-free Node.js benchmark was executed from the design-freeze commit using `npm test` and `npm run rpc:run`. Four tests passed. Two executions produced byte-identical JSON and CSV files. Registered SHA-256 values accompany the artifacts.
 
-## 7. Planned v2 change log
+## 8. Planned v2 change log
 
 - identify David Glowalla as creator;
 - withdraw unsupported empirical numbers;
@@ -50,3 +56,10 @@ The dependency-free Node.js benchmark was executed from the design-freeze commit
 - bound the work to a controlled synthetic benchmark;
 - add code, seeds, controls, results, checksums, and claim mapping;
 - retain negative outcomes and protocol deviations.
+
+## References
+
+1. R. Olfati-Saber, J. A. Fax, and R. M. Murray, “Consensus and Cooperation in Networked Multi-Agent Systems,” *Proceedings of the IEEE* 95(1), 215–233 (2007). https://doi.org/10.1109/JPROC.2006.887293
+2. L. M. Pecora and T. L. Carroll, “Synchronization in Chaotic Systems,” *Physical Review Letters* 64(8), 821–824 (1990). https://doi.org/10.1103/PhysRevLett.64.821
+3. C. E. Shannon, “A Mathematical Theory of Communication,” *Bell System Technical Journal* 27, 379–423 and 623–656 (1948). https://doi.org/10.1002/j.1538-7305.1948.tb01338.x
+4. J. Theiler, S. Eubank, A. Longtin, B. Galdrikian, and J. D. Farmer, “Testing for Nonlinearity in Time Series: The Method of Surrogate Data,” *Physica D* 58(1–4), 77–94 (1992). https://doi.org/10.1016/0167-2789(92)90102-S
