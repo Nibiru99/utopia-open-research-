@@ -11,7 +11,7 @@
   "version": "2.0-draft",
   "upload_type": "publication",
   "publication_type": "workingpaper",
-  "description": "Corrective pre-results draft reformulating RPC as a controlled synthetic benchmark. Unsupported empirical numerical statements from the prior version are withdrawn pending reconstruction. No confirmatory result is reported and no claim is made about consciousness, human affect, quantum phenomena, or clinical performance.",
+  "description": "Corrective results draft reformulating RPC as a controlled synthetic benchmark. In 200 paired deterministic seeds, attractive coupling separated from an uncoupled control and recovered after the declared perturbation, satisfying both primary criteria. Dynamic coupling did not outperform matched fixed coupling, and the entropy–curvature diagnostic did not exceed a circular-shift surrogate. Unsupported empirical statements from the prior version are withdrawn. No claim is made about consciousness, human affect, quantum phenomena, or clinical performance.",
   "keywords": [
     "coupled dynamical systems",
     "synthetic benchmark",
@@ -37,7 +37,7 @@
     }
   ],
   "notes": [
-    "Do not publish until executable results and final metadata are reviewed.",
+    "Do not publish until the exact result commit, manuscript, licenses, and metadata are reviewed.",
     "ORCID and affiliation intentionally unset pending confirmation."
   ]
 }

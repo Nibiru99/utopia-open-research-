@@ -21,8 +21,10 @@
       "id": "rpc-v2",
       "concept_doi": "10.5281/zenodo.18367001",
       "current_version_doi": "10.5281/zenodo.18367002",
-      "state": "source_audit_and_design_draft",
-      "evidence_level": "L0",
+      "state": "executed_synthetic_benchmark_results_draft",
+      "evidence_level": "L4_bounded_synthetic_benchmark",
+      "design_freeze_commit": "36be4b796e9e417b5eeca61d5873f8f6447b1dab",
+      "result_sha256": "f8150fa78f3ef35be9bac1bbeef8c086aba367f4a69b84d5b88e676f3ecbc2db",
       "zenodo_state": "not_created"
     }
   ]

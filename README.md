@@ -16,7 +16,7 @@ This is the publication-facing layer of the Utopia research archive, not a mirro
 
 | Package | State | Purpose |
 |---|---|---|
-| [RPC v2](projects/rpc-v2/README.md) | corrective design draft | Replace unsupported empirical language with a falsifiable synthetic benchmark |
+| [RPC v2](projects/rpc-v2/README.md) | executed results draft | Correct unsupported empirical language and report a controlled 200-seed synthetic benchmark |
 | [ICS/GEO Tools](https://github.com/Nibiru99/ics-geo-tools-) | separate draft software PR | Executable ICS v3 Experiment 4/4B metric replay and stress benchmark |
 
 ## Creator

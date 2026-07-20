@@ -30,7 +30,7 @@ The prior public manuscript proposes a coupled-vector model, cosine-similarity c
 1. Positive-uniform initial vectors begin with substantial positive cosine similarity, not a neutral low-coherence start.
 2. A sigmoid of non-negative cosine imposes strong positive coupling, so convergence is partly built into the rule.
 3. Noise scaling and per-step normalization materially define the dynamics and require sensitivity tests.
-4. Entropy and curvature derive from the same trajectories; shuffled and phase-randomized surrogates are necessary.
+4. Entropy and curvature derive from the same trajectories; surrogate controls are necessary. The first confirmatory benchmark uses a frozen circular shift; phase-randomized surrogates remain a future robustness extension.
 5. “Warmth,” “empathy,” and “conscious equilibrium” are not operational variables in the package.
 
 ## Conclusion
