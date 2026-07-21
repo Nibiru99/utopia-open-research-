@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "repository": "Nibiru99/utopia-open-research-",
+  "entries": [
+    {
+      "id": "ics-ap-geo-x-experiment-highway-2026-06-21",
+      "source_id": "04_ICS_SYMBOLIC_GEOMETRY/ICS AP and GEO X Experiment Highway 2026-06-21.md",
+      "evidence_status": "experimental",
+      "publication_status": "needs_review",
+      "target": "docs/research-maps/ics-ap-geo-x-highway.md",
+      "review_note": "Convert private intake paths and implementation notes into a concise public map with reproducibility links."
+    },
+    {
+      "id": "geo-x-q12-q13-pac-integration-review-2026-07-14",
+      "source_id": "04_ICS_SYMBOLIC_GEOMETRY/GEO X Q12-Q13 PAC Integration Review 2026-07-14.md",
+      "evidence_status": "supported",
+      "publication_status": "needs_review",
+      "target": "docs/results/geo-x-q12-q13-replication-summary.md",
+      "review_note": "Lead with replication outcomes and baseline comparisons; link runnable packages after their tools-repository intake."
+    },
+    {
+      "id": "ics-ap33-ap57-certificate-continuation-review-2026-07-20",
+      "source_id": "04_ICS_SYMBOLIC_GEOMETRY/ICS AP33-AP57 Certificate Continuation Review 2026-07-20.md",
+      "evidence_status": "experimental",
+      "publication_status": "needs_review",
+      "target": "docs/results/ics-ap33-ap57-certificate-review.md",
+      "review_note": "Preserve missing-dependency findings and the AP57 export quarantine in the public result summary."
+    },
+    {
+      "id": "dpa-pac-integration-review-2026-07-20",
+      "source_id": "04_ICS_SYMBOLIC_GEOMETRY/DPA Digital Proprioceptive Architecture PAC Integration Review 2026-07-20.md",
+      "evidence_status": "experimental",
+      "publication_status": "hold_private",
+      "target": null,
+      "review_note": "Keep private until the PAC 6R/7 implementation contract and benchmark references stabilize."
+    },
+    {
+      "id": "pac-development-outline-2026-06-21",
+      "source_id": "14_CODEX_DEVELOPMENT/PAC Photographic Artificial Cognition Development Outline 2026-06-21.md",
+      "evidence_status": "experimental",
+      "publication_status": "hold_private",
+      "target": null,
+      "review_note": "Architecture roadmap belongs in the private development lane until versioned public interfaces exist."
+    }
+  ]
+}
