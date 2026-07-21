@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-07-20",
+  "creator": {
+    "name": "David Glowalla",
+    "zenodo_name": "Glowalla, David",
+    "github": "Nibiru99",
+    "orcid": null,
+    "affiliation": null
+  },
+  "packages": [
+    {
+      "id": "ics-geo-tools-v0.2.0",
+      "repository": "Nibiru99/ics-geo-tools-",
+      "commit": "ad122a09eb8ac9512150586c985902d5cd5c51e1",
+      "state": "draft_release_candidate",
+      "evidence_level": "L4_narrow_reconstruction",
+      "zenodo_state": "not_created"
+    },
+    {
+      "id": "rpc-v2",
+      "concept_doi": "10.5281/zenodo.18367001",
+      "current_version_doi": "10.5281/zenodo.18367002",
+      "state": "executed_synthetic_benchmark_results_draft",
+      "evidence_level": "L4_bounded_synthetic_benchmark",
+      "design_freeze_commit": "36be4b796e9e417b5eeca61d5873f8f6447b1dab",
+      "result_sha256": "f8150fa78f3ef35be9bac1bbeef8c086aba367f4a69b84d5b88e676f3ecbc2db",
+      "zenodo_state": "not_created"
+    }
+  ]
+}

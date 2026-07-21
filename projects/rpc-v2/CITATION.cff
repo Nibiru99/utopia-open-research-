@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, cite this software package and its exact archived version."
+title: "Recursive Probability Coupling: A Controlled Synthetic Benchmark of Coupled-State Convergence and Recovery"
+type: software
+version: "2.0.0-rc.1"
+authors:
+  - given-names: "David"
+    family-names: "Glowalla"
+repository-code: "https://github.com/Nibiru99/utopia-open-research-"
+url: "https://github.com/Nibiru99/utopia-open-research-/tree/agent/open-research-foundation/projects/rpc-v2"
+license: Apache-2.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18367001"
+    description: "Zenodo concept DOI for the RPC version family"
+keywords:
+  - coupled dynamical systems
+  - synthetic benchmark
+  - surrogate controls
+  - reproducibility
+abstract: >-
+  A corrective, deterministic 200-seed benchmark of coupled-state convergence
+  and perturbation recovery. Attractive coupling separates from an uncoupled
+  control, but dynamic coupling does not outperform matched fixed coupling and
+  the entropy-curvature diagnostic does not exceed its circular-shift surrogate.
+preferred-citation:
+  type: article
+  title: "Recursive Probability Coupling: A Controlled Synthetic Benchmark of Coupled-State Convergence and Recovery"
+  authors:
+    - given-names: "David"
+      family-names: "Glowalla"
+  year: 2026
+  version: "2.0.0-rc.1"
+  identifiers:
+    - type: doi
+      value: "10.5281/zenodo.18367001"
+      description: "Concept DOI; use the final version DOI after publication for an exact citation"

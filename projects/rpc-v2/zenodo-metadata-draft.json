@@ -1,0 +1,49 @@
+{
+  "status": "UNPUBLISHED_WORKING_COPY",
+  "title": "Recursive Probability Coupling: A Falsifiable Synthetic Benchmark Protocol for Coupled-State Dynamics",
+  "creators": [
+    {
+      "name": "Glowalla, David",
+      "orcid": null,
+      "affiliation": null
+    }
+  ],
+  "version": "2.0-draft",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "Corrective results draft reformulating RPC as a controlled synthetic benchmark. In 200 paired deterministic seeds, attractive coupling separated from an uncoupled control and recovered after the declared perturbation, satisfying both primary criteria. Dynamic coupling did not outperform matched fixed coupling, and the entropy–curvature diagnostic did not exceed a circular-shift surrogate. Unsupported empirical statements from the prior version are withdrawn. No claim is made about consciousness, human affect, quantum phenomena, or clinical performance.",
+  "keywords": [
+    "coupled dynamical systems",
+    "synthetic benchmark",
+    "surrogate controls",
+    "reproducibility"
+  ],
+  "license": "cc-by-4.0",
+  "references": [
+    "Olfati-Saber, R.; Fax, J. A.; Murray, R. M. (2007). Consensus and Cooperation in Networked Multi-Agent Systems. Proceedings of the IEEE, 95(1), 215-233. https://doi.org/10.1109/JPROC.2006.887293",
+    "Pecora, L. M.; Carroll, T. L. (1990). Synchronization in Chaotic Systems. Physical Review Letters, 64(8), 821-824. https://doi.org/10.1103/PhysRevLett.64.821",
+    "Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27, 379-423 and 623-656. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+    "Theiler, J.; Eubank, S.; Longtin, A.; Galdrikian, B.; Farmer, J. D. (1992). Testing for Nonlinearity in Time Series: The Method of Surrogate Data. Physica D, 58(1-4), 77-94. https://doi.org/10.1016/0167-2789(92)90102-S"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18367001",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18367002",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Nibiru99/utopia-open-research-",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": [
+    "Do not publish until the exact result commit, manuscript, licenses, and metadata are reviewed.",
+    "ORCID and affiliation intentionally unset pending confirmation."
+  ]
+}
