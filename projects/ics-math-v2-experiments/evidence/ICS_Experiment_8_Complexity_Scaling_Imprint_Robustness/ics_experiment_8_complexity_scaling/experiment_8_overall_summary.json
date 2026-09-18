@@ -1,0 +1,20 @@
+{
+  "n_conditions": 12,
+  "n_queries": 320,
+  "max_db_size": 100,
+  "noise_levels": [
+    0.0,
+    0.1,
+    0.25,
+    0.4
+  ],
+  "overall_top1_exact_accuracy": 0.915625,
+  "overall_top1_family_accuracy": 0.9875,
+  "overall_top3_exact_accuracy": 0.96875,
+  "overall_top3_family_accuracy": 0.996875,
+  "overall_false_match_rate": 0.0125,
+  "overall_mean_target_rank": 1.259375,
+  "overall_mean_cost_reduction": 0.9293489226280652,
+  "overall_mean_speedup_proxy": 14.615478981084104,
+  "decision": "PASS"
+}

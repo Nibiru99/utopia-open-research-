@@ -1,0 +1,5 @@
+transformation,title,source,target,all_exact_decode,min_decode_accuracy_noise,uncertainty_reduction_total,coherence_change_total,compression_total,compute_load_change,mean_CEI,target_identity_preservation,target_loop_closure_score,decision
+T1_simple_solve,x + 1 = 3 → x = 2,x + 1 = 3,x = 2,True,0.9944,0.5499999999999999,-0.09936000000000011,0.4,-0.8500000000000005,0.7396355555555554,0.8,1.0,PASS
+T2_symbolic_rearrange,a + b = c → a = c - b,a + b = c,a = c - b,True,0.996,0.25,-0.0007199999999998319,0.0,0.9000000000000004,0.2769777777777779,1.0,1.0,PASS
+T3_energy_rearrange,E = m c ^ 2 → c = √(E ÷ m),E = m c ^ 2,c = √ ( E ÷ m ),True,0.9935,0.25,0.010946782680801626,-0.3333333333333333,4.450000000000001,-0.0233714661701645,0.8,0.6813021786896201,PASS
+T4_pythagorean_solve_r,x ^ 2 + y ^ 2 = r ^ 2 → r = √(x ^ 2 + y ^ 2),x ^ 2 + y ^ 2 = r ^ 2,r = √ ( x ^ 2 + y ^ 2 ),True,0.9943333333333333,0.25,-0.035799003938495444,-0.09090909090909091,2.349999999999998,0.0916420067884169,1.0,0.6936665056883065,PASS

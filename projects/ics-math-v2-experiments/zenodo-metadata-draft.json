@@ -1,0 +1,55 @@
+{
+  "status": "UNPUBLISHED_WORKING_COPY",
+  "title": "ICS-Math v2: Controlled Experimental Validation of a Symbolic Equation Manifold (Experiments 1A-8)",
+  "creators": [
+    {
+      "name": "Glowalla, David",
+      "orcid": null,
+      "affiliation": null
+    }
+  ],
+  "version": "0.1.0-draft",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "First consolidated experimental validation deposit for Infinity Counting Sphere Math v2 (Symbolic Equation Manifold). Includes the Experiments 1A-8 controlled toy-simulation report and per-experiment documentation/metrics from the original research inbox. Supports architectural validity under declared controls. Does not claim replacement of conventional arithmetic, general mathematical reasoning, or physical discovery. Continues the ICS Zenodo lineage.",
+  "keywords": [
+    "ICS",
+    "ICS-Math",
+    "symbolic manifold",
+    "experimental validation",
+    "reproducibility",
+    "preprint"
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18251363",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18346404",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18367524",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.18367475",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Nibiru99/utopia-open-research-",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": [
+    "Do not publish until David Glowalla reviews the exact package.",
+    "Private studio source excluded."
+  ]
+}

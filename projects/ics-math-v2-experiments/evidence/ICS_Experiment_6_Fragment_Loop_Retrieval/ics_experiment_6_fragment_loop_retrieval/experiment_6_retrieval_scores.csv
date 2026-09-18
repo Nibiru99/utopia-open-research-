@@ -1,0 +1,127 @@
+query_id,query_expression,candidate_id,candidate_expression,candidate_family,target_id,target_family,score_axis_filtered,score_unfiltered,axis_pass,is_target,is_target_family
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C1_linear_symbolic,a + b = c,linear,C5_pythagorean,metric,0.46607944179462457,0.46607944179462457,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C2_linear_rearranged,a = c - b,linear,C5_pythagorean,metric,0.4009535855397672,0.4009535855397672,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C3_simple_equation,x + 1 = 3,simple_solve,C5_pythagorean,metric,0.5610836359718765,0.5610836359718765,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C4_simple_solution,x = 2,simple_solve,C5_pythagorean,metric,0.49515942231799775,0.49515942231799775,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C5_pythagorean,metric,0.8282403037160582,0.8282403037160582,True,True,True
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C5_pythagorean,metric,0.6878289125764948,0.6878289125764948,True,False,True
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C7_energy_mass,E = m c ^ 2,physics,C5_pythagorean,metric,0.5741327940573216,0.5741327940573216,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C5_pythagorean,metric,0.4058661630245564,0.4058661630245564,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C9_div_zero,x ÷ 0,omega,C5_pythagorean,metric,0.38158202626081944,0.38158202626081944,True,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C10_zero_over_zero,0 ÷ 0,omega,C5_pythagorean,metric,-1.0,0.29151266784595153,False,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C11_inf_collision,+∞ - +∞,omega,C5_pythagorean,metric,-1.0,0.30156950625495504,False,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C12_sqrt_neg_one,√ -1,domain_extension,C5_pythagorean,metric,-1.0,0.23286123005733805,False,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C13_absence,Ø,absence,C5_pythagorean,metric,-1.0,0.11337134293204369,False,False,False
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C14_solved_control,2 + 3 = 5,certain,C5_pythagorean,metric,0.5131601533087478,0.5131601533087478,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C1_linear_symbolic,a + b = c,linear,C7_energy_mass,physics,0.4882358776520052,0.4882358776520052,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C2_linear_rearranged,a = c - b,linear,C7_energy_mass,physics,0.5760497602523129,0.5760497602523129,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C3_simple_equation,x + 1 = 3,simple_solve,C7_energy_mass,physics,0.4427258761849533,0.4427258761849533,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C4_simple_solution,x = 2,simple_solve,C7_energy_mass,physics,0.4111890151108714,0.4111890151108714,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C7_energy_mass,physics,0.4870145035541392,0.4870145035541392,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C7_energy_mass,physics,0.4486071917708221,0.4486071917708221,True,False,False
+Q2_energy_missing_power,E = m c ^ ?,C7_energy_mass,E = m c ^ 2,physics,C7_energy_mass,physics,0.8295526991171901,0.8295526991171901,True,True,True
+Q2_energy_missing_power,E = m c ^ ?,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C7_energy_mass,physics,0.5872582967045732,0.5872582967045732,True,False,True
+Q2_energy_missing_power,E = m c ^ ?,C9_div_zero,x ÷ 0,omega,C7_energy_mass,physics,-1.0,0.3379684169818217,False,False,False
+Q2_energy_missing_power,E = m c ^ ?,C10_zero_over_zero,0 ÷ 0,omega,C7_energy_mass,physics,-1.0,0.27451258853766847,False,False,False
+Q2_energy_missing_power,E = m c ^ ?,C11_inf_collision,+∞ - +∞,omega,C7_energy_mass,physics,-1.0,0.3082192823539098,False,False,False
+Q2_energy_missing_power,E = m c ^ ?,C12_sqrt_neg_one,√ -1,domain_extension,C7_energy_mass,physics,-1.0,0.24869671781083907,False,False,False
+Q2_energy_missing_power,E = m c ^ ?,C13_absence,Ø,absence,C7_energy_mass,physics,-1.0,0.1362636255616926,False,False,False
+Q2_energy_missing_power,E = m c ^ ?,C14_solved_control,2 + 3 = 5,certain,C7_energy_mass,physics,0.3159068315247161,0.3159068315247161,True,False,False
+Q3_linear_missing_b,a + ? = c,C1_linear_symbolic,a + b = c,linear,C1_linear_symbolic,linear,0.8911372711281189,0.8911372711281189,True,True,True
+Q3_linear_missing_b,a + ? = c,C2_linear_rearranged,a = c - b,linear,C1_linear_symbolic,linear,0.6911071512388622,0.6911071512388622,True,False,True
+Q3_linear_missing_b,a + ? = c,C3_simple_equation,x + 1 = 3,simple_solve,C1_linear_symbolic,linear,0.6545768849231473,0.6545768849231473,True,False,False
+Q3_linear_missing_b,a + ? = c,C4_simple_solution,x = 2,simple_solve,C1_linear_symbolic,linear,0.4592136587089904,0.4592136587089904,True,False,False
+Q3_linear_missing_b,a + ? = c,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C1_linear_symbolic,linear,0.4920455696125288,0.4920455696125288,True,False,False
+Q3_linear_missing_b,a + ? = c,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C1_linear_symbolic,linear,0.43502172055076554,0.43502172055076554,True,False,False
+Q3_linear_missing_b,a + ? = c,C7_energy_mass,E = m c ^ 2,physics,C1_linear_symbolic,linear,0.5218233054632782,0.5218233054632782,True,False,False
+Q3_linear_missing_b,a + ? = c,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C1_linear_symbolic,linear,0.5020220597247611,0.5020220597247611,True,False,False
+Q3_linear_missing_b,a + ? = c,C9_div_zero,x ÷ 0,omega,C1_linear_symbolic,linear,-1.0,0.38458918391659314,False,False,False
+Q3_linear_missing_b,a + ? = c,C10_zero_over_zero,0 ÷ 0,omega,C1_linear_symbolic,linear,-1.0,0.29193030361709527,False,False,False
+Q3_linear_missing_b,a + ? = c,C11_inf_collision,+∞ - +∞,omega,C1_linear_symbolic,linear,-1.0,0.2786183443309503,False,False,False
+Q3_linear_missing_b,a + ? = c,C12_sqrt_neg_one,√ -1,domain_extension,C1_linear_symbolic,linear,-1.0,0.22264324506815175,False,False,False
+Q3_linear_missing_b,a + ? = c,C13_absence,Ø,absence,C1_linear_symbolic,linear,-1.0,0.10007171837222238,False,False,False
+Q3_linear_missing_b,a + ? = c,C14_solved_control,2 + 3 = 5,certain,C1_linear_symbolic,linear,0.4809665840721674,0.4809665840721674,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C1_linear_symbolic,a + b = c,linear,C3_simple_equation,simple_solve,0.6246943530896384,0.6246943530896384,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C2_linear_rearranged,a = c - b,linear,C3_simple_equation,simple_solve,0.4701694767070866,0.4701694767070866,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C3_simple_equation,x + 1 = 3,simple_solve,C3_simple_equation,simple_solve,0.8953716321280641,0.8953716321280641,True,True,True
+Q4_simple_missing_constant,x + ? = 3,C4_simple_solution,x = 2,simple_solve,C3_simple_equation,simple_solve,0.613436096138437,0.613436096138437,True,False,True
+Q4_simple_missing_constant,x + ? = 3,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C3_simple_equation,simple_solve,0.5946158486325512,0.5946158486325512,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C3_simple_equation,simple_solve,0.5164769587779514,0.5164769587779514,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C7_energy_mass,E = m c ^ 2,physics,C3_simple_equation,simple_solve,0.5284429121688949,0.5284429121688949,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C3_simple_equation,simple_solve,0.4401551751367823,0.4401551751367823,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C9_div_zero,x ÷ 0,omega,C3_simple_equation,simple_solve,0.4987095847327446,0.4987095847327446,True,False,False
+Q4_simple_missing_constant,x + ? = 3,C10_zero_over_zero,0 ÷ 0,omega,C3_simple_equation,simple_solve,-1.0,0.35989114326508637,False,False,False
+Q4_simple_missing_constant,x + ? = 3,C11_inf_collision,+∞ - +∞,omega,C3_simple_equation,simple_solve,-1.0,0.31836847178823735,False,False,False
+Q4_simple_missing_constant,x + ? = 3,C12_sqrt_neg_one,√ -1,domain_extension,C3_simple_equation,simple_solve,-1.0,0.2708455300422569,False,False,False
+Q4_simple_missing_constant,x + ? = 3,C13_absence,Ø,absence,C3_simple_equation,simple_solve,-1.0,0.12430249822911073,False,False,False
+Q4_simple_missing_constant,x + ? = 3,C14_solved_control,2 + 3 = 5,certain,C3_simple_equation,simple_solve,0.5871286299090075,0.5871286299090075,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C1_linear_symbolic,a + b = c,linear,C6_pythagorean_solve_r,metric,0.42048625174774745,0.42048625174774745,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C2_linear_rearranged,a = c - b,linear,C6_pythagorean_solve_r,metric,0.40109353536870773,0.40109353536870773,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C3_simple_equation,x + 1 = 3,simple_solve,C6_pythagorean_solve_r,metric,0.48259603824845854,0.48259603824845854,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C4_simple_solution,x = 2,simple_solve,C6_pythagorean_solve_r,metric,0.45777515807909264,0.45777515807909264,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C6_pythagorean_solve_r,metric,0.748908754199556,0.748908754199556,True,False,True
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C6_pythagorean_solve_r,metric,0.9999999999999999,0.9999999999999999,True,True,True
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C7_energy_mass,E = m c ^ 2,physics,C6_pythagorean_solve_r,metric,0.5747922031528302,0.5747922031528302,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C8_energy_solve_c,c = √ ( E ÷ m ),physics,C6_pythagorean_solve_r,metric,0.6056560572936325,0.6056560572936325,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C9_div_zero,x ÷ 0,omega,C6_pythagorean_solve_r,metric,0.3125660627317205,0.3125660627317205,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C10_zero_over_zero,0 ÷ 0,omega,C6_pythagorean_solve_r,metric,-1.0,0.23330019082126885,False,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C11_inf_collision,+∞ - +∞,omega,C6_pythagorean_solve_r,metric,-1.0,0.1924597919385551,False,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C12_sqrt_neg_one,√ -1,domain_extension,C6_pythagorean_solve_r,metric,0.20352382200366437,0.20352382200366437,True,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C13_absence,Ø,absence,C6_pythagorean_solve_r,metric,-1.0,0.0728494715276648,False,False,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C14_solved_control,2 + 3 = 5,certain,C6_pythagorean_solve_r,metric,0.39338276396807237,0.39338276396807237,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C1_linear_symbolic,a + b = c,linear,C8_energy_solve_c,physics,0.4734776997380269,0.4734776997380269,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C2_linear_rearranged,a = c - b,linear,C8_energy_solve_c,physics,0.4940935190954888,0.4940935190954888,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C3_simple_equation,x + 1 = 3,simple_solve,C8_energy_solve_c,physics,0.4317553467137789,0.4317553467137789,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C4_simple_solution,x = 2,simple_solve,C8_energy_solve_c,physics,0.391623210503956,0.391623210503956,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C8_energy_solve_c,physics,0.4613968204196285,0.4613968204196285,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C8_energy_solve_c,physics,0.6313603763506054,0.6313603763506054,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C7_energy_mass,E = m c ^ 2,physics,C8_energy_solve_c,physics,0.5688188682582995,0.5688188682582995,True,False,True
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C8_energy_solve_c,c = √ ( E ÷ m ),physics,C8_energy_solve_c,physics,0.9999999999999999,0.9999999999999999,True,True,True
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C9_div_zero,x ÷ 0,omega,C8_energy_solve_c,physics,0.3000056370623441,0.3000056370623441,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C10_zero_over_zero,0 ÷ 0,omega,C8_energy_solve_c,physics,0.2479713450497203,0.2479713450497203,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C11_inf_collision,+∞ - +∞,omega,C8_energy_solve_c,physics,-1.0,0.1912978348597953,False,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C12_sqrt_neg_one,√ -1,domain_extension,C8_energy_solve_c,physics,0.21525827496588618,0.21525827496588618,True,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C13_absence,Ø,absence,C8_energy_solve_c,physics,-1.0,0.10239894986062725,False,False,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C14_solved_control,2 + 3 = 5,certain,C8_energy_solve_c,physics,0.25524317755760373,0.25524317755760373,True,False,False
+Q7_omega_division,? ÷ 0,C1_linear_symbolic,a + b = c,linear,C9_div_zero,omega,-1.0,0.359332458073737,False,False,False
+Q7_omega_division,? ÷ 0,C2_linear_rearranged,a = c - b,linear,C9_div_zero,omega,-1.0,0.34856313069363815,False,False,False
+Q7_omega_division,? ÷ 0,C3_simple_equation,x + 1 = 3,simple_solve,C9_div_zero,omega,-1.0,0.4277414588638953,False,False,False
+Q7_omega_division,? ÷ 0,C4_simple_solution,x = 2,simple_solve,C9_div_zero,omega,-1.0,0.4434646787882358,False,False,False
+Q7_omega_division,? ÷ 0,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C9_div_zero,omega,-1.0,0.39179885043530693,False,False,False
+Q7_omega_division,? ÷ 0,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C9_div_zero,omega,-1.0,0.377145795383719,False,False,False
+Q7_omega_division,? ÷ 0,C7_energy_mass,E = m c ^ 2,physics,C9_div_zero,omega,-1.0,0.45290912247493553,False,False,False
+Q7_omega_division,? ÷ 0,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C9_div_zero,omega,0.34699059338047766,0.34699059338047766,True,False,False
+Q7_omega_division,? ÷ 0,C9_div_zero,x ÷ 0,omega,C9_div_zero,omega,0.8011601484352614,0.8011601484352614,True,True,True
+Q7_omega_division,? ÷ 0,C10_zero_over_zero,0 ÷ 0,omega,C9_div_zero,omega,0.8218474277969093,0.8218474277969093,True,False,True
+Q7_omega_division,? ÷ 0,C11_inf_collision,+∞ - +∞,omega,C9_div_zero,omega,-1.0,0.44576559851356923,False,False,True
+Q7_omega_division,? ÷ 0,C12_sqrt_neg_one,√ -1,domain_extension,C9_div_zero,omega,-1.0,0.3300097968903934,False,False,False
+Q7_omega_division,? ÷ 0,C13_absence,Ø,absence,C9_div_zero,omega,-1.0,0.15197423879959882,False,False,False
+Q7_omega_division,? ÷ 0,C14_solved_control,2 + 3 = 5,certain,C9_div_zero,omega,-1.0,0.355358238584654,False,False,False
+Q8_infinity_collision,+∞ - ?,C1_linear_symbolic,a + b = c,linear,C11_inf_collision,omega,-1.0,0.33616068071190724,False,False,False
+Q8_infinity_collision,+∞ - ?,C2_linear_rearranged,a = c - b,linear,C11_inf_collision,omega,0.4178530812119147,0.4178530812119147,True,False,False
+Q8_infinity_collision,+∞ - ?,C3_simple_equation,x + 1 = 3,simple_solve,C11_inf_collision,omega,-1.0,0.3960921624517348,False,False,False
+Q8_infinity_collision,+∞ - ?,C4_simple_solution,x = 2,simple_solve,C11_inf_collision,omega,-1.0,0.376425432333836,False,False,False
+Q8_infinity_collision,+∞ - ?,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C11_inf_collision,omega,-1.0,0.34008822271932193,False,False,False
+Q8_infinity_collision,+∞ - ?,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C11_inf_collision,omega,-1.0,0.29763101808033643,False,False,False
+Q8_infinity_collision,+∞ - ?,C7_energy_mass,E = m c ^ 2,physics,C11_inf_collision,omega,-1.0,0.3541106510565884,False,False,False
+Q8_infinity_collision,+∞ - ?,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C11_inf_collision,omega,-1.0,0.3096906078850088,False,False,False
+Q8_infinity_collision,+∞ - ?,C9_div_zero,x ÷ 0,omega,C11_inf_collision,omega,-1.0,0.4818325013460612,False,False,True
+Q8_infinity_collision,+∞ - ?,C10_zero_over_zero,0 ÷ 0,omega,C11_inf_collision,omega,-1.0,0.4840215194923981,False,False,True
+Q8_infinity_collision,+∞ - ?,C11_inf_collision,+∞ - +∞,omega,C11_inf_collision,omega,0.8599314678601909,0.8599314678601909,True,True,True
+Q8_infinity_collision,+∞ - ?,C12_sqrt_neg_one,√ -1,domain_extension,C11_inf_collision,omega,-1.0,0.4014408041502406,False,False,False
+Q8_infinity_collision,+∞ - ?,C13_absence,Ø,absence,C11_inf_collision,omega,-1.0,0.19817454775774324,False,False,False
+Q8_infinity_collision,+∞ - ?,C14_solved_control,2 + 3 = 5,certain,C11_inf_collision,omega,-1.0,0.29955172252525486,False,False,False
+Q9_absence,Ø,C1_linear_symbolic,a + b = c,linear,C13_absence,absence,-1.0,0.07362106570163152,False,False,False
+Q9_absence,Ø,C2_linear_rearranged,a = c - b,linear,C13_absence,absence,-1.0,0.08643985369925938,False,False,False
+Q9_absence,Ø,C3_simple_equation,x + 1 = 3,simple_solve,C13_absence,absence,-1.0,0.18780782100152654,False,False,False
+Q9_absence,Ø,C4_simple_solution,x = 2,simple_solve,C13_absence,absence,-1.0,0.17111312160608583,False,False,False
+Q9_absence,Ø,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,C13_absence,absence,-1.0,0.1421508870754542,False,False,False
+Q9_absence,Ø,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,C13_absence,absence,-1.0,0.126167468614169,False,False,False
+Q9_absence,Ø,C7_energy_mass,E = m c ^ 2,physics,C13_absence,absence,-1.0,0.13301642805393388,False,False,False
+Q9_absence,Ø,C8_energy_solve_c,c = √ ( E ÷ m ),physics,C13_absence,absence,-1.0,0.10993204235094058,False,False,False
+Q9_absence,Ø,C9_div_zero,x ÷ 0,omega,C13_absence,absence,-1.0,0.2000773109633397,False,False,False
+Q9_absence,Ø,C10_zero_over_zero,0 ÷ 0,omega,C13_absence,absence,-1.0,0.21208350636627066,False,False,False
+Q9_absence,Ø,C11_inf_collision,+∞ - +∞,omega,C13_absence,absence,-1.0,0.1523833764563175,False,False,False
+Q9_absence,Ø,C12_sqrt_neg_one,√ -1,domain_extension,C13_absence,absence,-1.0,0.19365493402826844,False,False,False
+Q9_absence,Ø,C13_absence,Ø,absence,C13_absence,absence,0.9999999999999999,0.9999999999999999,True,True,True
+Q9_absence,Ø,C14_solved_control,2 + 3 = 5,certain,C13_absence,absence,-1.0,0.12901590116348788,False,False,False

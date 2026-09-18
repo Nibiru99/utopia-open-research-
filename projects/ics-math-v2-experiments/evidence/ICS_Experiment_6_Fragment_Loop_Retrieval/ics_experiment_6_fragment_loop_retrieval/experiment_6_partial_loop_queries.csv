@@ -1,0 +1,10 @@
+id,tokens,expr,target_family,target_id
+Q1_pythagorean_missing_r,"['x', '^', '2', '+', 'y', '^', '2', '=', '?']",x ^ 2 + y ^ 2 = ?,metric,C5_pythagorean
+Q2_energy_missing_power,"['E', '=', 'm', 'c', '^', '?']",E = m c ^ ?,physics,C7_energy_mass
+Q3_linear_missing_b,"['a', '+', '?', '=', 'c']",a + ? = c,linear,C1_linear_symbolic
+Q4_simple_missing_constant,"['x', '+', '?', '=', '3']",x + ? = 3,simple_solve,C3_simple_equation
+Q5_retrieve_pythagorean_solution,"['r', '=', '√', '(', 'x', '^', '2', '+', 'y', '^', '2', ')']",r = √ ( x ^ 2 + y ^ 2 ),metric,C6_pythagorean_solve_r
+Q6_retrieve_energy_solution,"['c', '=', '√', '(', 'E', '÷', 'm', ')']",c = √ ( E ÷ m ),physics,C8_energy_solve_c
+Q7_omega_division,"['?', '÷', '0']",? ÷ 0,omega,C9_div_zero
+Q8_infinity_collision,"['+∞', '-', '?']",+∞ - ?,omega,C11_inf_collision
+Q9_absence,['Ø'],Ø,absence,C13_absence

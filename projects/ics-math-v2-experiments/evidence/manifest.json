@@ -1,0 +1,46 @@
+{
+  "copied_at": "2026-09-18",
+  "source": "G:\\UTOPIA AGIVITY\\UTOPIA PAM PEMS\\HIVE_5\\Receiver\\inbox\\files to sort into vault\\ICS Hybrid Existence\\ICS-Math v2 Experimental Results Report",
+  "experiments": [
+    {
+      "name": "ICS_Experiment_1B_pi_arc_family_separation",
+      "folder": "ICS_Experiment_1B_pi_arc_family_separation",
+      "files": 13
+    },
+    {
+      "name": "ICS_Experiment_2_B3_equation_encoding",
+      "folder": "ICS_Experiment_2_B3_equation_encoding",
+      "files": 19
+    },
+    {
+      "name": "ICS_Experiment_3_B3_equation_transformation",
+      "folder": "ICS_Experiment_3_B3_equation_transformation",
+      "files": 22
+    },
+    {
+      "name": "ICS_Experiment_4_B3_ambiguity_test",
+      "folder": "ICS_Experiment_4_B3_ambiguity_test",
+      "files": 22
+    },
+    {
+      "name": "ICS_Experiment_5_Base10_Ghost_Benchmark",
+      "folder": "ICS_Experiment_5_Base10_Ghost_Benchmark",
+      "files": 18
+    },
+    {
+      "name": "ICS_Experiment_6_Fragment_Loop_Retrieval",
+      "folder": "ICS_Experiment_6_Fragment_Loop_Retrieval",
+      "files": 23
+    },
+    {
+      "name": "ICS_Experiment_7_Geometric_Imprint_Cache",
+      "folder": "ICS_Experiment_7_Geometric_Imprint_Cache",
+      "files": 18
+    },
+    {
+      "name": "ICS_Experiment_8_Complexity_Scaling_Imprint_Robustness",
+      "folder": "ICS_Experiment_8_Complexity_Scaling_Imprint_Robustness",
+      "files": 20
+    }
+  ]
+}

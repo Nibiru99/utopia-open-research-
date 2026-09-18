@@ -1,0 +1,12 @@
+{
+  "n_queries": 9,
+  "cache_exact_accuracy": 1.0,
+  "cache_family_accuracy": 1.0,
+  "mean_cache_target_rank": 1.0,
+  "mean_speedup_proxy": 13.675583023836198,
+  "mean_cost_reduction": 0.9079529114034188,
+  "mean_actual_speedup_ms": 22.169781750200862,
+  "baseline_exact_accuracy": 0.5555555555555556,
+  "mean_baseline_target_rank": 1.8888888888888888,
+  "decision": "PASS"
+}

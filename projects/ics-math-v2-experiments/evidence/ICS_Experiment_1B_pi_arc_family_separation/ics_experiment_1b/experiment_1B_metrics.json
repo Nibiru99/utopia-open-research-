@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "B0_previous_ICS_sector",
+    "collision_rate": 0.005590496156533892,
+    "retrieval_after_noise": 0.9965185185185185,
+    "family_separation_knn": 0.24074074074074073,
+    "polarity_symmetry": 0.9505021781260101,
+    "digit_order_score": 1.0,
+    "pi_checksum_error_clean": 3.926610717856193e-18,
+    "pi_checksum_error_noisy": 0.003162722381792305,
+    "ghost_core_distortion": 0.039293774060799126,
+    "mirror_edge_coverage": 0.0
+  },
+  {
+    "variant": "B1_pi_arc_sectors",
+    "collision_rate": 0.02236198462613557,
+    "retrieval_after_noise": 0.988,
+    "family_separation_knn": 0.8333333333333335,
+    "polarity_symmetry": 0.2769784547209066,
+    "digit_order_score": 1.0,
+    "pi_checksum_error_clean": 5.480894127007604e-18,
+    "pi_checksum_error_noisy": 0.0034012399975113065,
+    "ghost_core_distortion": 0.10369628888147404,
+    "mirror_edge_coverage": 0.0
+  },
+  {
+    "variant": "B2_pi_arc_plus_mirror_edges",
+    "collision_rate": 0.023759608665269043,
+    "retrieval_after_noise": 0.9868888888888889,
+    "family_separation_knn": 0.7098765432098767,
+    "polarity_symmetry": 1.0,
+    "digit_order_score": 1.0,
+    "pi_checksum_error_clean": 6.789764366293002e-18,
+    "pi_checksum_error_noisy": 0.0029409209676027385,
+    "ghost_core_distortion": 0.10369628888147404,
+    "mirror_edge_coverage": 1.0
+  }
+]

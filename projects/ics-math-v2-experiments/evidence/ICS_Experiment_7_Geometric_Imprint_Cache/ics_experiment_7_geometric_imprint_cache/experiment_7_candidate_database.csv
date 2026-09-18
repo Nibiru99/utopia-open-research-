@@ -1,0 +1,14 @@
+id,family,tokens,expr
+C1_linear_symbolic,linear,"['a', '+', 'b', '=', 'c']",a + b = c
+C2_linear_rearranged,linear,"['a', '=', 'c', '-', 'b']",a = c - b
+C3_simple_equation,simple_solve,"['x', '+', '1', '=', '3']",x + 1 = 3
+C4_simple_solution,simple_solve,"['x', '=', '2']",x = 2
+C5_pythagorean,metric,"['x', '^', '2', '+', 'y', '^', '2', '=', 'r', '^', '2']",x ^ 2 + y ^ 2 = r ^ 2
+C6_pythagorean_solve_r,metric,"['r', '=', '√', '(', 'x', '^', '2', '+', 'y', '^', '2', ')']",r = √ ( x ^ 2 + y ^ 2 )
+C7_energy_mass,physics,"['E', '=', 'm', 'c', '^', '2']",E = m c ^ 2
+C8_energy_solve_c,physics,"['c', '=', '√', '(', 'E', '÷', 'm', ')']",c = √ ( E ÷ m )
+C9_circle_center,metric,"['(', 'x', '-', 'a', ')', '^', '2', '+', '(', 'y', '-', 'b', ')', '^', '2', '=', 'r', '^', '2']",( x - a ) ^ 2 + ( y - b ) ^ 2 = r ^ 2
+C10_area_circle,geometry,"['A', '=', 'π', 'r', '^', '2']",A = π r ^ 2
+C11_force,physics,"['F', '=', 'm', 'a']",F = m a
+C12_omega_div_zero,omega,"['x', '÷', '0']",x ÷ 0
+C13_absence,absence,['Ø'],Ø

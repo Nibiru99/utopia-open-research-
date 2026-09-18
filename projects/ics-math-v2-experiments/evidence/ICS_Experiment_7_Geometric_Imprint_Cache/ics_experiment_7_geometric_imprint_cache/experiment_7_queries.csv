@@ -1,0 +1,10 @@
+id,tokens,target_id,mode,source_id
+Q1_pythagorean_partial,"['x', '^', '2', '+', 'y', '^', '2', '=', '?']",C5_pythagorean,partial_retrieval,
+Q2_circle_partial,"['(', 'x', '-', 'a', ')', '^', '2', '+', '(', 'y', '-', 'b', ')', '^', '2', '=', '?']",C9_circle_center,partial_retrieval,
+Q3_energy_partial,"['E', '=', 'm', 'c', '^', '?']",C7_energy_mass,partial_retrieval,
+Q4_area_partial,"['A', '=', 'π', '?', '^', '2']",C10_area_circle,partial_retrieval,
+Q5_force_partial,"['F', '=', 'm', '?']",C11_force,partial_retrieval,
+Q6_pythagorean_re_equate,"['x', '^', '2', '+', 'y', '^', '2', '=', 'r', '^', '2']",C6_pythagorean_solve_r,cached_transformation,C5_pythagorean
+Q7_energy_re_equate,"['E', '=', 'm', 'c', '^', '2']",C8_energy_solve_c,cached_transformation,C7_energy_mass
+Q8_simple_re_equate,"['x', '+', '1', '=', '3']",C4_simple_solution,cached_transformation,C3_simple_equation
+Q9_linear_re_equate,"['a', '+', 'b', '=', 'c']",C2_linear_rearranged,cached_transformation,C1_linear_symbolic

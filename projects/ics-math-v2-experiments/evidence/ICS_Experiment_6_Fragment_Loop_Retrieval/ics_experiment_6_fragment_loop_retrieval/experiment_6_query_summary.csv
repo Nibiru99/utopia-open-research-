@@ -1,0 +1,10 @@
+query_id,query_expression,target_id,target_family,top1_candidate,top1_expression,top1_family,top1_exact,top1_family_correct,top3_family_correct,target_rank,unfiltered_target_rank,axis_filter_improvement,filtered_candidates,top_score,second_score,margin,false_match
+Q1_pythagorean_missing_r,x ^ 2 + y ^ 2 = ?,C5_pythagorean,metric,C5_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,metric,True,True,True,1,1,0,4,0.8282403037160582,0.6878289125764948,0.14041139113956336,False
+Q2_energy_missing_power,E = m c ^ ?,C7_energy_mass,physics,C7_energy_mass,E = m c ^ 2,physics,True,True,True,1,1,0,5,0.8295526991171901,0.5872582967045732,0.2422944024126169,False
+Q3_linear_missing_b,a + ? = c,C1_linear_symbolic,linear,C1_linear_symbolic,a + b = c,linear,True,True,True,1,1,0,5,0.8911372711281189,0.6911071512388622,0.20003011988925667,False
+Q4_simple_missing_constant,x + ? = 3,C3_simple_equation,simple_solve,C3_simple_equation,x + 1 = 3,simple_solve,True,True,True,1,1,0,4,0.8953716321280641,0.6246943530896384,0.27067727903842576,False
+Q5_retrieve_pythagorean_solution,r = √ ( x ^ 2 + y ^ 2 ),C6_pythagorean_solve_r,metric,C6_pythagorean_solve_r,r = √ ( x ^ 2 + y ^ 2 ),metric,True,True,True,1,1,0,3,0.9999999999999999,0.748908754199556,0.25109124580044384,False
+Q6_retrieve_energy_solution,c = √ ( E ÷ m ),C8_energy_solve_c,physics,C8_energy_solve_c,c = √ ( E ÷ m ),physics,True,True,True,1,1,0,2,0.9999999999999999,0.6313603763506054,0.3686396236493945,False
+Q7_omega_division,? ÷ 0,C9_div_zero,omega,C10_zero_over_zero,0 ÷ 0,omega,False,True,True,2,2,0,11,0.8218474277969093,0.8011601484352614,0.020687279361647937,False
+Q8_infinity_collision,+∞ - ?,C11_inf_collision,omega,C11_inf_collision,+∞ - +∞,omega,True,True,True,1,1,0,12,0.8599314678601909,0.4178530812119147,0.4420783866482762,False
+Q9_absence,Ø,C13_absence,absence,C13_absence,Ø,absence,True,True,True,1,1,0,13,0.9999999999999999,-1.0,2.0,False

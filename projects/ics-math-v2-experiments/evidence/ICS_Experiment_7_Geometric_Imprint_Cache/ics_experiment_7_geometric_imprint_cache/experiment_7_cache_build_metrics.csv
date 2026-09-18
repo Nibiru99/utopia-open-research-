@@ -1,0 +1,14 @@
+candidate_id,family,expr,n_tokens,center_state,loop_length,build_time_ms,imprint_dim
+C1_linear_symbolic,linear,a + b = c,5,Y,5.162427717446455,1.446007000595273,106
+C2_linear_rearranged,linear,a = c - b,5,Y,5.035501999706875,1.0389569997641956,106
+C3_simple_equation,simple_solve,x + 1 = 3,5,Y,7.682694727172901,0.7275460002347245,106
+C4_simple_solution,simple_solve,x = 2,3,Y,4.724436994216693,0.5910469999435009,106
+C5_pythagorean,metric,x ^ 2 + y ^ 2 = r ^ 2,11,Y,15.250547128786344,1.2441930002751178,106
+C6_pythagorean_solve_r,metric,r = √ ( x ^ 2 + y ^ 2 ),12,Y,16.494717916611652,1.2606359996425454,106
+C7_energy_mass,physics,E = m c ^ 2,6,Y,8.13767206388222,0.8159250000971952,106
+C8_energy_solve_c,physics,c = √ ( E ÷ m ),8,Y,11.032504943682682,1.1377499995433027,106
+C9_circle_center,metric,( x - a ) ^ 2 + ( y - b ) ^ 2 = r ^ 2,19,Y,28.243409540633124,2.264571000523574,106
+C10_area_circle,geometry,A = π r ^ 2,6,Y,9.101510027065316,1.06683299964061,106
+C11_force,physics,F = m a,4,Y,4.158637587883112,0.8336470000358531,106
+C12_omega_div_zero,omega,x ÷ 0,3,Ω,4.248208893428872,0.7260499996846193,106
+C13_absence,absence,Ø,1,Ø,0.0,0.1867319997472805,106
