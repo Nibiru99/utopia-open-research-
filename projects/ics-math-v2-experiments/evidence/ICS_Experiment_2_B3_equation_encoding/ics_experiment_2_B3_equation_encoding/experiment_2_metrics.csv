@@ -1,0 +1,5 @@
+equation,standard,n_tokens,decoded,exact_decode,decode_accuracy_noise,loop_closure_score,family_path_coherence,operator_relation_connectivity,ghost_core_alignment,uncertainty_state,expected_state,state_match,pi_checksum_error,loop_length
+E1_linear_symbolic,a + b = c,5,a + b = c,True,0.9976,1.0,1.0,1.0,1.0,Y,Y,True,1.4135798584282297e-17,4.977575683517829
+E2_simple_solve,x + 1 = 3,5,x + 1 = 3,True,0.996,1.0,1.0,1.0,0.919047619047619,Y,Y,True,1.457754229004112e-17,7.672082325546822
+E3_pythagorean,x ^ 2 + y ^ 2 = r ^ 2,11,x ^ 2 + y ^ 2 = r ^ 2,True,0.9985454545454545,0.9215273727870825,1.0,1.0,0.919047619047619,Y,Y,True,6.4253629928555896e-18,15.415440373748918
+E4_energy_mass,E = m c ^ 2,6,E = m c ^ 2,True,0.9953333333333333,0.6826115129031423,1.0,1.0,0.919047619047619,Y,Y,True,1.1779832153568581e-17,7.795998293062658

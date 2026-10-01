@@ -1,0 +1,11 @@
+{
+  "n_queries": 9,
+  "top1_exact_accuracy": 0.8888888888888888,
+  "top1_family_accuracy": 1.0,
+  "top3_family_accuracy": 1.0,
+  "mean_target_rank": 1.1111111111111112,
+  "false_match_rate": 0.0,
+  "mean_axis_filter_improvement": 0.0,
+  "mean_margin": 0.4373233031044028,
+  "decision": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "n_tests": 9,
+  "classification_accuracy": 1.0,
+  "min_decode_accuracy_noise": 0.9744,
+  "mean_decode_accuracy_noise": 0.992977777777778,
+  "mean_pi_checksum_error": 5.4318114930344e-18,
+  "mean_family_path_coherence": 1.0,
+  "decision": "PASS"
+}

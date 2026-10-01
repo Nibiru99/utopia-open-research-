@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-09-18",
   "creator": {
     "name": "David Glowalla",
     "zenodo_name": "Glowalla, David",
@@ -9,6 +9,14 @@
     "affiliation": null
   },
   "packages": [
+    {
+      "id": "ics-math-v2-experiments",
+      "path": "projects/ics-math-v2-experiments",
+      "state": "preprint_package_draft",
+      "evidence_level": "L3_L4_inbox_original_experiments",
+      "zenodo_state": "not_created",
+      "notes": "Series A root lineage from Receiver inbox ICS-Math v2 Exp 1A-8."
+    },
     {
       "id": "ics-geo-tools-v0.2.0",
       "repository": "Nibiru99/ics-geo-tools-",
@@ -26,6 +34,14 @@
       "design_freeze_commit": "36be4b796e9e417b5eeca61d5873f8f6447b1dab",
       "result_sha256": "f8150fa78f3ef35be9bac1bbeef8c086aba367f4a69b84d5b88e676f3ecbc2db",
       "zenodo_state": "not_created"
+    },
+    {
+      "id": "geo-vis04-series-a",
+      "path": "projects/geo-vis04-series-a",
+      "state": "deferred_secondary_after_ics_math_v2",
+      "evidence_level": "L4_frozen_certificate_artifacts",
+      "zenodo_state": "not_created",
+      "notes": "Parked: publication root is ICS-Math v2 experiments, then GEO VIS originals, then studio certificates."
     }
   ]
 }

@@ -1,0 +1,79 @@
+[
+  {
+    "transformation": "T1_simple_solve",
+    "from_step": "source",
+    "to_step": "isolate_x",
+    "coherence_gain": -0.00024000000000001798,
+    "uncertainty_reduction": 0.25,
+    "compression_gain": 0.0,
+    "compute_load_delta": 0.9000000000000004,
+    "CEI": 0.277511111111111,
+    "identity_preservation": 1.0
+  },
+  {
+    "transformation": "T1_simple_solve",
+    "from_step": "isolate_x",
+    "to_step": "solved",
+    "coherence_gain": -0.0991200000000001,
+    "uncertainty_reduction": 0.3,
+    "compression_gain": 0.4,
+    "compute_load_delta": -1.7500000000000009,
+    "CEI": 1.2017599999999997,
+    "identity_preservation": 0.8
+  },
+  {
+    "transformation": "T2_symbolic_rearrange",
+    "from_step": "source",
+    "to_step": "isolate_a",
+    "coherence_gain": -0.0007199999999998319,
+    "uncertainty_reduction": 0.25,
+    "compression_gain": 0.0,
+    "compute_load_delta": 0.9000000000000004,
+    "CEI": 0.2769777777777779,
+    "identity_preservation": 1.0
+  },
+  {
+    "transformation": "T3_energy_rearrange",
+    "from_step": "source",
+    "to_step": "divide_by_m",
+    "coherence_gain": 0.04804431302021572,
+    "uncertainty_reduction": 0.25,
+    "compression_gain": -0.16666666666666666,
+    "compute_load_delta": 2.6000000000000014,
+    "CEI": 0.05052986398213423,
+    "identity_preservation": 1.0
+  },
+  {
+    "transformation": "T3_energy_rearrange",
+    "from_step": "divide_by_m",
+    "to_step": "solve_c",
+    "coherence_gain": -0.0370975303394141,
+    "uncertainty_reduction": 0.0,
+    "compression_gain": -0.14285714285714285,
+    "compute_load_delta": 1.8499999999999996,
+    "CEI": -0.09727279632246323,
+    "identity_preservation": 0.8
+  },
+  {
+    "transformation": "T4_pythagorean_solve_r",
+    "from_step": "source",
+    "to_step": "swap_sides",
+    "coherence_gain": -0.01686741258073432,
+    "uncertainty_reduction": 0.25,
+    "compression_gain": 0.0,
+    "compute_load_delta": 0.9000000000000004,
+    "CEI": 0.25903620824362844,
+    "identity_preservation": 1.0
+  },
+  {
+    "transformation": "T4_pythagorean_solve_r",
+    "from_step": "swap_sides",
+    "to_step": "solve_r",
+    "coherence_gain": -0.018931591357761124,
+    "uncertainty_reduction": 0.0,
+    "compression_gain": -0.09090909090909091,
+    "compute_load_delta": 1.4499999999999975,
+    "CEI": -0.07575219466679464,
+    "identity_preservation": 1.0
+  }
+]
