@@ -63,15 +63,30 @@
     },
     {
       "id": "hive-bp-eval-kit-v0.1.0",
-      "state": "eval_license_published_zenodo",
+      "state": "eval_license_zenodo_live_git_private",
       "zenodo_state": "published",
       "current_version_doi": "10.5281/zenodo.22836455",
       "github": {
         "repo": "Nibiru99/hive-bp-eval-kit",
-        "visibility": "private"
+        "visibility": "private",
+        "release": "v0.1.0"
       },
       "license": "EVAL",
-      "notes": "Eval-license kit face. Not OSS Studio. Lane C."
+      "notes": "Eval-license kit. Zenodo live. Git private. Email parked. Not OSS Studio."
+    },
+    {
+      "id": "pam-benchmark-public-contracts",
+      "repository": "Nibiru99/pam-benchmark-",
+      "state": "public_cleanroom_contracts",
+      "zenodo_state": "not_created",
+      "license": "see_repo",
+      "notes": "Public validation contracts / VAM-PEMS reconstructions. Not Studio. Not pam-pac-core."
+    },
+    {
+      "id": "geo-x-c8-c9",
+      "state": "hold_pending_cleanroom",
+      "zenodo_state": "not_created",
+      "notes": "C8/C9 Visibility Packages local only. HOLD new DOI until cleanroom. Not Series A spine. Not ics-geo-tools."
     }
   ]
 }
