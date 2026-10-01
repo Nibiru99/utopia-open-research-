@@ -30,9 +30,18 @@
       "id": "ics-geo-tools-v0.2.0",
       "repository": "Nibiru99/ics-geo-tools-",
       "commit": "ad122a09eb8ac9512150586c985902d5cd5c51e1",
-      "state": "draft_release_candidate",
+      "state": "apache_showcase_frozen",
       "evidence_level": "L4_narrow_reconstruction",
-      "zenodo_state": "not_created"
+      "zenodo_state": "staged_local_not_uploaded",
+      "github": {
+        "repo": "Nibiru99/ics-geo-tools-",
+        "release": "v0.2.0",
+        "release_url": "https://github.com/Nibiru99/ics-geo-tools-/releases/tag/v0.2.0",
+        "commit": "df50f58ce7a25d77c561875e46cfb63b25d7e36e"
+      },
+      "license": "Apache-2.0",
+      "notes": "Public Apache showcase freeze. No further feature commits. ICS Studio / finding-lab = separate license repo. Local dirty tree must not be pushed. Zenodo software zip staged under HIVE_5 outputs.",
+      "related_doi": "10.5281/zenodo.18251363"
     },
     {
       "id": "rpc-v2",
@@ -51,6 +60,18 @@
       "evidence_level": "L4_frozen_certificate_artifacts",
       "zenodo_state": "not_created",
       "notes": "Parked: publication root is ICS-Math v2 experiments, then GEO VIS originals, then studio certificates."
+    },
+    {
+      "id": "hive-bp-eval-kit-v0.1.0",
+      "state": "eval_license_published_zenodo",
+      "zenodo_state": "published",
+      "current_version_doi": "10.5281/zenodo.22836455",
+      "github": {
+        "repo": "Nibiru99/hive-bp-eval-kit",
+        "visibility": "private"
+      },
+      "license": "EVAL",
+      "notes": "Eval-license kit face. Not OSS Studio. Lane C."
     }
   ]
 }
