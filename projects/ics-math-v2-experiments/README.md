@@ -41,3 +41,7 @@ Inbox originals show the discovery order:
 ## Publication control
 
 Do **not** publish until David Glowalla reviews the exact file set. Prefer open evidence for Exp 1–8 metrics; keep speculative ICSv4/v5 narrative out of this deposit.
+
+## Public scoreboard (Wave 1 staging)
+
+Local draft: [SCOREBOARD.md](./SCOREBOARD.md) — cites Zenodo 10.5281/zenodo.22830316. Staged 2026-10-01; push only after owner yes.
