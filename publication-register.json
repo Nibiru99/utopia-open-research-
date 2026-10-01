@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-09-18",
+  "updated_at": "2026-10-02",
   "creator": {
     "name": "David Glowalla",
     "zenodo_name": "Glowalla, David",
@@ -12,10 +12,19 @@
     {
       "id": "ics-math-v2-experiments",
       "path": "projects/ics-math-v2-experiments",
-      "state": "preprint_package_draft",
+      "state": "public_on_github_main",
       "evidence_level": "L3_L4_inbox_original_experiments",
-      "zenodo_state": "not_created",
-      "notes": "Series A root lineage from Receiver inbox ICS-Math v2 Exp 1A-8."
+      "zenodo_state": "published",
+      "notes": "Series A Exp 1A-8 on public main via PR #2. Zenodo live 10.5281/zenodo.22830316. Scoreboard cites deposit; toy-sim boundaries apply.",
+      "concept_doi": "10.5281/zenodo.22830316",
+      "current_version_doi": "10.5281/zenodo.22830316",
+      "github": {
+        "repo": "Nibiru99/utopia-open-research-",
+        "path": "projects/ics-math-v2-experiments",
+        "scoreboard_url": "https://github.com/Nibiru99/utopia-open-research-/blob/main/projects/ics-math-v2-experiments/SCOREBOARD.md",
+        "merged_pr": 2,
+        "merge_commit": "36db92ef0afac5fa6f36913a36a312e0a9ba6e09"
+      }
     },
     {
       "id": "ics-geo-tools-v0.2.0",
